@@ -1,0 +1,37 @@
+.popular-food{
+    padding:80px 0;
+    background:#fff;
+}
+
+.popular-food h2{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.section-subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:40px;
+}
+
+.empty-food{
+    max-width:700px;
+    margin:auto;
+    padding:60px 30px;
+    text-align:center;
+    border:2px dashed #ddd;
+    border-radius:20px;
+    background:#fafafa;
+}
+
+.empty-food h3{
+    font-size:28px;
+    color:#E23744;
+    margin-bottom:15px;
+}
+
+.empty-food p{
+    color:#666;
+    line-height:1.6;
+}

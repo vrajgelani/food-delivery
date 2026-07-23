@@ -1,0 +1,84 @@
+.hero{
+    width:100%;
+    min-height:550px;
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+}
+
+.overlay{
+
+    width:100%;
+    min-height:550px;
+
+    background:rgba(0,0,0,.55);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero-content{
+
+    width:90%;
+    max-width:850px;
+
+    text-align:center;
+}
+
+.hero h1{
+
+    color:white;
+
+    font-size:60px;
+
+    margin-bottom:20px;
+}
+
+.hero p{
+
+    color:white;
+
+    font-size:22px;
+
+    margin-bottom:35px;
+}
+
+.hero-search{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:15px;
+}
+
+.hero-search input{
+
+    width:450px;
+
+    padding:16px;
+
+    border-radius:10px;
+
+    border:none;
+}
+
+.hero-search button{
+
+    background:#E23744;
+
+    color:white;
+
+    border:none;
+
+    padding:16px 28px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:17px;
+}
