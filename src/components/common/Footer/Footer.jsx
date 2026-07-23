@@ -55,11 +55,11 @@ function Footer() {
 
           <h3>Contact</h3>
 
-          <p><FaMapMarkerAlt /> India</p>
+          <p><FaMapMarkerAlt /> surat,gujarat,India</p>
 
-          <p><FaPhoneAlt /> +91 9876543210</p>
+          <p><FaPhoneAlt /> +91 93283 18485</p>
 
-          <p><FaEnvelope /> support@fooddelivery.com</p>
+          <p><FaEnvelope /> vrajgelani1@gmail.com</p>
 
           <div className="social-icons">
 
