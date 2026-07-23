@@ -1,0 +1,80 @@
+.otp-page{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f8f8f8;
+    padding:100px 20px;
+}
+
+.otp-card{
+    width:100%;
+    max-width:500px;
+    background:#fff;
+    padding:35px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.otp-card h1{
+    margin-bottom:15px;
+}
+
+.otp-card p{
+    color:#666;
+}
+
+.otp-inputs{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin:30px 0;
+}
+
+.otp-inputs input{
+    width:55px;
+    height:55px;
+    text-align:center;
+    font-size:22px;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+
+.verify-btn,
+.resend-btn{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+    margin-top:15px;
+}
+
+.verify-btn{
+    background:#E23744;
+    color:#fff;
+    cursor:pointer;
+}
+
+.verify-btn:hover{
+    background:#c81f32;
+}
+
+.resend-btn{
+    background:#ddd;
+    cursor:not-allowed;
+}
+
+.timer{
+    margin-top:10px;
+}
+
+.back-login{
+    margin-top:20px;
+}
+
+.back-login a{
+    color:#E23744;
+    text-decoration:none;
+}

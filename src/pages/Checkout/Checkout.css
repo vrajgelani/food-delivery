@@ -63,3 +63,65 @@
 }
 
 }
+
+.checkout-card input{
+    width:100%;
+    padding:14px;
+    margin-bottom:15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:15px;
+}
+
+.location-btn{
+    width:100%;
+    padding:14px;
+    border:none;
+    background:#0f9d58;
+    color:#fff;
+    border-radius:10px;
+    cursor:pointer;
+    margin-bottom:10px;
+}
+
+.location-btn:hover{
+    background:#0c7f47;
+}
+
+.note{
+    color:#777;
+    font-size:14px;
+}
+
+.payment-option{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:15px;
+    cursor:pointer;
+}
+
+.payment-option input{
+    width:auto;
+    margin:0;
+}
+
+.place-order-link{
+    text-decoration:none;
+}
+
+.place-order-btn{
+    width:100%;
+    padding:15px;
+    background:#E23744;
+    color:#fff;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+.place-order-btn:hover{
+    background:#c81f32;
+}

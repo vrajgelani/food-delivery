@@ -1,0 +1,53 @@
+.favorites-page{
+    min-height:100vh;
+    background:#f8f8f8;
+    padding:110px 20px;
+}
+
+.favorite-tabs{
+    display:flex;
+    gap:15px;
+    margin:25px 0;
+}
+
+.favorite-tabs button{
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    background:#ddd;
+    transition:.3s;
+}
+
+.favorite-tabs .active{
+    background:#E23744;
+    color:#fff;
+}
+
+.search-box{
+    margin-bottom:25px;
+}
+
+.search-box input{
+    width:100%;
+    padding:14px;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+
+.favorite-empty{
+    background:#fff;
+    border-radius:18px;
+    padding:60px 20px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.favorite-empty h2{
+    color:#E23744;
+    margin-bottom:15px;
+}
+
+.favorite-empty p{
+    color:#666;
+}

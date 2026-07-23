@@ -1,0 +1,59 @@
+.manage-address-page{
+    min-height:100vh;
+    background:#f8f8f8;
+    padding:110px 20px;
+}
+
+.address-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.add-address-btn{
+    background:#E23744;
+    color:#fff;
+    border:none;
+    padding:12px 22px;
+    border-radius:8px;
+    cursor:not-allowed;
+    opacity:.7;
+}
+
+.empty-address{
+    background:#fff;
+    border-radius:18px;
+    padding:60px 20px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.empty-address h2{
+    color:#E23744;
+    margin-bottom:15px;
+}
+
+.empty-address p{
+    color:#666;
+}
+
+.add-address-link{
+    text-decoration:none;
+}
+
+.add-address-btn{
+    background:#E23744;
+    color:#fff;
+    border:none;
+    padding:12px 22px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.add-address-btn:hover{
+    background:#c81f32;
+}

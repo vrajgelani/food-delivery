@@ -1,0 +1,26 @@
+.order-history-page{
+    min-height:100vh;
+    background:#f8f8f8;
+    padding:110px 20px;
+}
+
+.order-history-page h1{
+    margin-bottom:30px;
+}
+
+.empty-orders{
+    background:#fff;
+    border-radius:18px;
+    padding:60px 20px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.empty-orders h2{
+    color:#E23744;
+    margin-bottom:15px;
+}
+
+.empty-orders p{
+    color:#666;
+}

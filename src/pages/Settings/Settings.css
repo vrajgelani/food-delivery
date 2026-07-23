@@ -1,0 +1,48 @@
+.settings-page{
+    min-height:100vh;
+    background:#f8f8f8;
+    padding:110px 20px;
+}
+
+.settings-page h1{
+    margin-bottom:30px;
+}
+
+.settings-list{
+    max-width:700px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.setting-item,
+.logout-setting{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    width:100%;
+    padding:18px 20px;
+    background:#fff;
+    border:none;
+    border-radius:14px;
+    text-decoration:none;
+    color:#333;
+    font-size:16px;
+    box-shadow:0 6px 15px rgba(0,0,0,.08);
+    cursor:pointer;
+    transition:.3s;
+}
+
+.setting-item:hover{
+    transform:translateX(5px);
+}
+
+.setting-item svg,
+.logout-setting svg{
+    color:#E23744;
+    font-size:22px;
+}
+
+.logout-setting{
+    color:#E23744;
+}

@@ -14,7 +14,6 @@ function Navbar() {
 
         {/* Navigation Links */}
         <ul className="nav-links">
-
           <li>
             <NavLink to="/">Home</NavLink>
           </li>
@@ -26,26 +25,35 @@ function Navbar() {
           <li>
             <NavLink to="/offers">Offers</NavLink>
           </li>
-
         </ul>
 
         {/* Right Side Actions */}
         <div className="nav-actions">
 
-          <FaSearch className="icon" />
+          {/* Search */}
+          <Link to="/search" className="search-link">
+            <FaSearch className="icon" />
+          </Link>
 
+          {/* Cart */}
           <Link to="/cart" className="cart-link">
             <FaShoppingCart className="icon" />
           </Link>
 
-          <button className="login-btn">
-            <FaUser />
-            Login
-          </button>
+          {/* Login */}
+          <Link to="/login" className="login-link">
+            <button className="login-btn">
+              <FaUser />
+              Login
+            </button>
+          </Link>
 
-          <button className="register-btn">
-            Register
-          </button>
+          {/* Register */}
+          <Link to="/register" className="register-link">
+            <button className="register-btn">
+              Register
+            </button>
+          </Link>
 
         </div>
 
