@@ -1,0 +1,26 @@
+.restaurant-details-page{
+    padding:100px 0;
+    background:#f8f8f8;
+    min-height:100vh;
+}
+
+.empty-restaurant{
+    max-width:700px;
+    margin:auto;
+    background:#fff;
+    padding:80px 30px;
+    border-radius:20px;
+    border:2px dashed #ddd;
+    text-align:center;
+}
+
+.empty-restaurant h1{
+    font-size:36px;
+    color:#E23744;
+    margin-bottom:20px;
+}
+
+.empty-restaurant p{
+    color:#666;
+    font-size:18px;
+}

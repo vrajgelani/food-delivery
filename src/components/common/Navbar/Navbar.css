@@ -80,3 +80,10 @@
     font-weight:bold;
     border-bottom:2px solid white;
 }
+
+.cart-link{
+    color:#fff;
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+}

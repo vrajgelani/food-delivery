@@ -1,0 +1,46 @@
+.bill-summary{
+    background:#fff;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    position:sticky;
+    top:100px;
+}
+
+.bill-summary h2{
+    margin-bottom:20px;
+    color:#222;
+}
+
+.summary-empty{
+    padding:30px 15px;
+    border:2px dashed #ddd;
+    border-radius:12px;
+    text-align:center;
+}
+
+.summary-empty p{
+    color:#666;
+    line-height:1.6;
+}
+
+.checkout-link{
+    text-decoration:none;
+}
+
+.checkout-btn{
+    width:100%;
+    margin-top:20px;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#E23744;
+    color:#fff;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+.checkout-btn:hover{
+    background:#c81f32;
+}

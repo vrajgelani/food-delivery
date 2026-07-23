@@ -1,5 +1,6 @@
 import "./Restaurants.css";
 import FilterSidebar from "../../components/restaurant/FilterSidebar/FilterSidebar";
+import RestaurantCard from "../../components/restaurant/RestaurantCard/RestaurantCard";
 
 function Restaurants() {
   const restaurants = []; // Backend API આવશે
@@ -42,8 +43,26 @@ function Restaurants() {
               </div>
             ) : (
               <div className="restaurant-grid">
-                {/* Restaurant Cards will come here */}
-              </div>
+
+  <RestaurantCard
+    name="Restaurant Name"
+    cuisine="Cuisine"
+    rating="4.8"
+    deliveryTime="25 min"
+    location="City"
+    isOpen={true}
+  />
+
+  <RestaurantCard
+    name="Restaurant Name"
+    cuisine="Cuisine"
+    rating="4.6"
+    deliveryTime="35 min"
+    location="City"
+    isOpen={false}
+  />
+
+</div>
             )}
 
           </div>
