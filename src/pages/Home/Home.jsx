@@ -3,6 +3,7 @@ import Categories from "../../components/home/Categories/Categories";
 import PopularFood from "../../components/home/PopularFood/PopularFood";
 import Offers from "../../components/home/Offers/Offers";
 import Restaurants from "../../components/home/Restaurants/Restaurants";
+import AppDownload from "../../components/home/AppDownload/AppDownload";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <PopularFood />
       <Offers />
       <Restaurants />
+      <AppDownload />
     </>
   );
 }
